@@ -9,12 +9,13 @@ public class UserActionApi {
 
     @Step("User creation from API")
     public static Response createUser(User user) {
-        return given()
+        Response response =   given()
                 .header("Content-type", "application/json")
                 .and()
                 .body(user)
                 .when()
                 .post("/api/auth/register");
+        return response;
     }
 
     @Step("User login from API")

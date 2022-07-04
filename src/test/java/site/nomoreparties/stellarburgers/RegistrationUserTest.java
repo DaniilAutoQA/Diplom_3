@@ -13,7 +13,7 @@ import static site.nomoreparties.stellarburgers.UserActionApi.getAccessTokenUser
 
 public class RegistrationUserTest extends TestBase {
 
-    User user = new User("Иван", "qw17e@ya.ru", "123132");
+    User user = new User("Иван", "qw18e@ya.ru", "123132");
 
     @Test
     @DisplayName("Check registration user")

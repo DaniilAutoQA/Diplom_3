@@ -17,7 +17,7 @@ import static site.nomoreparties.stellarburgers.UserActionApi.*;
 
 public class NavigationTest extends TestBase {
 
-    User user = new User("Иван", "qw17e@ya.ru", "123132");
+    User user = new User("Иван", "qw18@ya.ru", "123132");
     String accessToken;
 
     @Before

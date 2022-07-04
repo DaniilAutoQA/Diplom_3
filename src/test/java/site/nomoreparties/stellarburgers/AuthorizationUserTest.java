@@ -13,7 +13,7 @@ import static site.nomoreparties.stellarburgers.UserActionApi.*;
 
 public class AuthorizationUserTest extends TestBase {
 
-    User user = new User("Иван", "qw17e@ya.ru", "123132");
+    User user = new User("Иван", "qw18e@ya.ru", "123132");
     String accessToken;
 
     @Before
